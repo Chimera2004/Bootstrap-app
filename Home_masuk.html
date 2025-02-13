@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>FE Open Courses</title>
+</head>
+<body>
+
+    <header class="bg-primary  py-3">
+        <nav class="navbar navbar-expand-lg  bg-primary">
+            <div class="container-fluid">
+            <a class="navbar-brand text-white" href="./home.html"><b>FE</b> <b>O</b>PEN <b>C</b>OURSES</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <a class="nav-link active text-white" aria-current="page" href="./home.html">Kelas</a>
+                    <a class="nav-link active text-white" aria-current="page" href="./Sertifikat.html">Sertifikat Program</a>
+                    <a class="nav-link active text-white" aria-current="page" href="./Tentang.html">Tentang</a>
+                
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <a class="btn btn-outline-danger" type="submit" href="./Masuk.html">Kelaur</a>
+                </form>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+<section class="py-5">   
+    <div class="container">
+    <div class="container mt-5">
+        <h1 id="welcomeMessage"></h1>
+    </div>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let username = localStorage.getItem("username") || "User"; // Ambil nama dari Local Storage
+            document.getElementById("welcomeMessage").innerText = `Selamat Datang, ${username}`;
+        });
+    </script>
+
+<div class="row">
+            
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="./Assets/isd.jpeg" class="card-img-top" alt="..." width="350" height="200">
+            <div class="card-body">
+                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 25%"></div>
+                  </div>
+                <h5 class="card-title">Manajemen Keuangan Umat</h5>
+                <p class="card-text">Rp 75.000</p>
+                <a class="btn btn-primary" href="./daftarkelas.html">Lanjut</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="./Assets/wp11930304.jpg" class="card-img-top" alt="..." width="350" height="200">
+            <div class="card-body">
+                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 25%"></div>
+                  </div>
+                <h5 class="card-title">Manajemen Keuangan Pribadi</h5>
+                <p class="card-text">Rp 75.000</p>
+                <a class="btn btn-primary">Lanjut</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="./Assets/wp11930282.jpg" class="card-img-top" alt="..." width="350" height="200">
+            <div class="card-body">
+                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 25%"></div>
+                  </div>
+                <h5 class="card-title">Manajemen Keuangan Pribadi</h5>
+                <p class="card-text">Rp 75.000</p>
+                <a class="btn btn-primary">Lanjut</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="./Assets/wp8959969.jpg" class="card-img-top" alt="..." width="350" height="200">
+            <div class="card-body">
+                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 25%"></div>
+                  </div>
+                <h5 class="card-title">Manajemen Keuangan Umat</h5>
+                <p class="card-text">Rp 75.000</p>
+                <a class="btn btn-primary" href="./daftarkelas.html">Lanjut</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="./Assets/1200569.jpg" class="card-img-top" alt="..." width="350" height="200">
+            <div class="card-body">
+                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 25%"></div>
+                  </div>
+                <h5 class="card-title">Manajemen Keuangan Pribadi</h5>
+                <p class="card-text">Rp 75.000</p>
+                <a class="btn btn-primary">Lanjut</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="./Assets/star-wars-landscape-2560-x-1440-cmfa5bax50bvesdn.jpg" class="card-img-top" alt="..." width="350" height="200">
+            <div class="card-body">
+                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 25%"></div>
+                  </div>
+                <h5 class="card-title">Manajemen Keuangan Pribadi</h5>
+                <p class="card-text">Rp 75.000</p>
+                <a class="btn btn-primary">Lanjut</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+</section>
+    
+
+    <footer class="bg-primary text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 border-bottom">
+                    <h5>FE Open Courses</h5>
+                    <p>Informasi Lebih Lanjut:</p>
+                    <div class="d-flex gap-2">
+                        <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-google"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-rss"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-md-end border-bottom">
+                    <h5>Kontak Kami:</h5>
+                    <ul class="list-unstyled">
+                        <li>Jl. Raya Kaligarang Km 4, Semarang 50112</li>
+                        <li>📞 (024) 6583584 ext 507</li>
+                        <li>📱 081329452055</li>
+                        <li>📧 fe@unnes.ac.id</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center mt-3 ">
+                <p class="mb-0">&copy; 2025 FE Open Courses. Dibuat dengan penuh ♥ oleh Azuralabs</p>
+            </div>
+        </div>
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
